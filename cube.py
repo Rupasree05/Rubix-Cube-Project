@@ -5,7 +5,7 @@ st.markdown(
     <style>
     /* Background image */
     .stApp {
-        background-image: url("https://m.media-amazon.com/images/I/61fB-s4DPVS.jpg, width="400", height="500"");
+        background-image: url("https://m.media-amazon.com/images/I/61fB-s4DPVS.jpg, width=400, height=500");
         background-size: cover;
         background-attachment: fixed;
     }
