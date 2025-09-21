@@ -33,8 +33,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("🟦 Rubik's Cube Simulator 🟦")
-
 
 # -----------------------------
 # STEP 1: Cube Representation
