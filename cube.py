@@ -5,7 +5,6 @@ import random
 # -----------------------------
 # 6 faces: U=Up, D=Down, F=Front, B=Back, L=Left, R=Right
 # Each face is a 3x3 grid with a color letter
-title('Rubix Cube Representation')
 
 def create_cube():
     return {
@@ -66,7 +65,7 @@ def scramble_cube(cube, moves_count=20):
 # -----------------------------
 if __name__ == "__main__":
     cube = create_cube()
-    print("✅ Initial Cube:")
+    print("✅ Rubix Cube Representation:")
     print_cube(cube)
 
     print("➡ Applying R move...")
