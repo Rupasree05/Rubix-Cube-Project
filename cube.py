@@ -5,7 +5,7 @@ st.markdown(
     <style>
     /* Background image */
     .stApp {
-        background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FStorio-Sticker-Brainstorming-Adjustable-Tightness%2Fdp%2FB085DZM4JS&psig=AOvVaw3w4ESebKIgeOmq9YWMmGgz&ust=1758523393616000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDO6KOg6Y8DFQAAAAAdAAAAABAE");
+        background-image: url("https://m.media-amazon.com/images/I/61fB-s4DPVS.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
