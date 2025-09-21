@@ -1,5 +1,40 @@
 import streamlit as st
 import random
+st.markdown(
+    """
+    <style>
+    /* Background image */
+    .stApp {
+        background-image: url("https://images.unsplash.com/photo-1612831669290-9e0728ff2a69?auto=format&fit=crop&w=1350&q=80");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    /* Title style */
+    h1 {
+        color: white;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    /* Table styling */
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    td {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.title("🟦 Rubik's Cube Simulator 🟦")
+
 
 # -----------------------------
 # STEP 1: Cube Representation
