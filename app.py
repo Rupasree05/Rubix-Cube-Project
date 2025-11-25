@@ -23,10 +23,20 @@ L = face_input("Left (L)")
 B = face_input("Back (B)")
 
 if st.button("Solve Cube"):
+
+    # 🔍 Check color count
+    all_colors = U + R + F + D + L + B
+    if any(all_colors.count(c) != 9 for c in colors):
+        st.error("❌ Invalid cube: each color (W,Y,R,O,G,B) must appear exactly 9 times.")
+        st.stop()
+
+    # Build cube state
     state = convert_to_kociemba(U, R, F, D, L, B)
     st.write("### Cube State Notation:")
     st.code(state)
 
+    # Solve
     st.write("### Solution:")
     solution = solve_cube(state)
     st.success(solution)
+
